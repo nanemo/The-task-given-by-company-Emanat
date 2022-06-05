@@ -12,6 +12,7 @@ import static org.springframework.http.MediaType.*;
 @RestController
 @RequestMapping("db")
 public class DatabaseController {
+
     private final Database database;
 
     public DatabaseController(Database database) {
